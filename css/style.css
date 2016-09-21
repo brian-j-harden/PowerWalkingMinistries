@@ -1,0 +1,150 @@
+body {
+    background-color: #f0f0f0;
+}
+
+@font-face {
+    font-family: zapfino;
+    src: url(../font/Zapfino.ttf);
+}
+
+@font-face {
+    font-family: julius;
+    src: url(../font/JuliusSansOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: cabin-bold;
+    src: url(../font/CabinSketch-Bold.otf);
+}
+
+div.header-img {
+    width: 90%;
+    position: absolute;
+    right: 5px;
+    background-image: url(../img/header2.png);
+    background-position: left bottom;
+    height: 150px;
+}
+
+div.logo {
+    float: left;
+    left: 0px;
+    width: 20%;
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+div.menu {
+    height: 45px;
+    font-family: cabin-bold;
+    font-size: 25px;
+    font-size: 1.8vw;
+    padding-top: 10px;
+    float: right;
+    padding-right: 20px;
+    clear: both;
+}
+
+div.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+div.menu a:link {
+    text-decoration: none;
+    color: black;
+}
+
+div.menu a:hover {
+    text-decoration: none;
+}
+
+div.header {
+    height: 150px;
+}
+
+div#content {
+    clear: both;
+}
+
+div.home-img {
+    float: left;
+    width: 50%;
+}
+
+div.home-img img {
+    width: 100%;
+}
+
+div.home-text {
+    float: right;
+    padding-top: 80px;
+    padding-left: 30px;
+    width: calc(50% - 30px);
+}
+
+div.believe {
+    font-family: zapfino;
+    font-size: 25px;
+    font-size: 2vw;
+    letter-spacing: 2px;
+    padding-left: 50px;
+}
+
+div.belief {
+    font-family: julius;
+    font-size: 20px;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+    line-height: 1.7em;
+    padding-left: 50px;
+}
+
+div.jesus {
+    font-family: julius;
+    font-size: 20px;
+    font-size: 1.5vw;
+    font-weight: BOLD;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 60px;
+    position: relative;
+    left: -70px;
+}
+
+div.signature {
+    padding-left: 15vw;
+    padding-top: 50px;
+    font-family: julius;
+    font-size: 20px;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+    line-height: 1.7em;
+}
+
+div.menu span {
+    margin-left: 50px;
+}
+
+span#give {
+    border: 2px solid #000;
+    border-radius: 300px;
+    background-color: transparent;
+    padding: 5px;
+}
+
+span#give:hover {
+    color: #f0f0f0;
+    background-color: black;
+}
+
+div.left-menu {
+    float: left;
+    width: 25%;
+}
+ span.menu-link:hover {
+     cursor: pointer;
+ }
