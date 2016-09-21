@@ -17,6 +17,10 @@ body {
     src: url(../font/CabinSketch-Bold.otf);
 }
 
+div.header {
+    height: 150px;
+}
+
 div.header-img {
     width: 90%;
     position: absolute;
@@ -45,29 +49,33 @@ div.menu {
     padding-top: 10px;
     float: right;
     padding-right: 20px;
+    color: black;
     clear: both;
 }
 
-div.menu a {
-    text-decoration: none;
-    color: black;
+div.menu span {
+    margin-left: 50px;
 }
 
-div.menu a:link {
-    text-decoration: none;
-    color: black;
+span.menu-link:hover {
+    cursor: pointer;
 }
 
-div.menu a:hover {
-    text-decoration: none;
+span#give {
+    border: 2px solid #000;
+    border-radius: 300px;
+    background-color: transparent;
+    padding: 5px;
 }
 
-div.header {
-    height: 150px;
+span#give:hover {
+    color: #f0f0f0;
+    background-color: black;
 }
 
 div#content {
     clear: both;
+    padding-top: 20px;
 }
 
 div.home-img {
@@ -125,26 +133,12 @@ div.signature {
     line-height: 1.7em;
 }
 
-div.menu span {
-    margin-left: 50px;
-}
-
-span#give {
-    border: 2px solid #000;
-    border-radius: 300px;
-    background-color: transparent;
-    padding: 5px;
-}
-
-span#give:hover {
-    color: #f0f0f0;
-    background-color: black;
-}
-
 div.left-menu {
+    font-family: cabin-bold;
+    font-size: 25px;
+    font-size: 1.8vw;
     float: left;
     width: 25%;
+    clear: both;
 }
- span.menu-link:hover {
-     cursor: pointer;
- }
+
