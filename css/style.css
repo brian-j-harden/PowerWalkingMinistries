@@ -1,6 +1,6 @@
 @font-face {
-    font-family: zapfino;
-    src: url(../font/Zapfino.ttf);
+    font-family: great-vibes;
+    src: url(../font/GreatVibes-Regular.ttf);
 }
 
 @font-face {
@@ -115,9 +115,9 @@ div.home-text {
 }
 
 div.believe {
-    font-family: zapfino;
-    font-size: 25px;
-    font-size: 2vw;
+    font-family: great-vibes;
+    font-size: 40px;
+    font-size: 4vw;
     letter-spacing: 2px;
     padding-left: 50px;
 }
