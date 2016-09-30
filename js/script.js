@@ -21,7 +21,7 @@ $(function(){
                 // When setting up the left menu, put in a 100 millisecond
                 // delay to ensure the menu loads completely before
                 // adding the listeners
-                $("#about-content").load("templates/stats.html");
+                $("#about-content").load("templates/story.html");
                 setTimeout(function(){
                     setupAboutMenu();
                 }, 100);

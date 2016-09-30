@@ -173,6 +173,25 @@ div#about-content {
     padding-bottom: 100px;
 }
 
+div.stats {
+    font-family: julius;
+    font-size: 15px;
+    font-size: 1.2vw;
+    padding: 0 10%;
+}
+
+div.stats div.title {
+    font-size: 30px;
+    font-size: 2.5vw;
+    font-weight: BOLD;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+div.stats li{
+    padding-bottom: 10px;
+}
+
 div#wendy-div {
     float: left;
     width: 30%;
@@ -290,6 +309,7 @@ div.thanks {
     font-size: 15px;
     font-size: 1.2vw;
 }
+
 div.thanksMessage {
     font-size: 30px;
     font-size: 2.5vw;
