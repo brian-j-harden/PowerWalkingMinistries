@@ -1,7 +1,3 @@
-body {
-    background-color: #f0f0f0;
-}
-
 @font-face {
     font-family: zapfino;
     src: url(../font/Zapfino.ttf);
@@ -15,6 +11,28 @@ body {
 @font-face {
     font-family: cabin-bold;
     src: url(../font/CabinSketch-Bold.otf);
+}
+
+@font-face {
+    font-family: gruppo;
+    src: url(../font/Gruppo-Regular.ttf);
+}
+
+@font-face {
+    font-family: tenorsans;
+    src: url(../font/TenorSans-Regular.ttf)
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../font/Roboto-Medium.ttf)
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: tenorsans;
+    font-size: 15px;
+    font-size: 1.2vw;
 }
 
 div.header {
@@ -57,7 +75,7 @@ div.menu span {
     margin-left: 50px;
 }
 
-span.menu-link:hover {
+.menu-link:hover {
     cursor: pointer;
 }
 
@@ -75,7 +93,9 @@ span#give:hover {
 
 div#content {
     clear: both;
-    padding-top: 20px;
+    padding-top: 5%;
+    padding-top: 5vh;
+    margin: 0px 50px;
 }
 
 div.home-img {
@@ -112,7 +132,7 @@ div.belief {
 }
 
 div.jesus {
-    font-family: julius;
+    font-family: roboto;
     font-size: 20px;
     font-size: 1.5vw;
     font-weight: BOLD;
@@ -138,7 +158,186 @@ div.left-menu {
     font-size: 25px;
     font-size: 1.8vw;
     float: left;
-    width: 25%;
+    width: 15%;
     clear: both;
 }
 
+div.left-menu div.menu-link{
+    padding-bottom: 20px;
+}
+
+
+div#about-content {
+    float: right;
+    width: 80%;
+    padding-bottom: 100px;
+}
+
+div#wendy-div {
+    float: left;
+    width: 30%;
+    padding: 0px 15px 15px 0px;
+}
+
+img#wendy-img {
+    width: 100%;
+}
+
+div.story {
+    font-family: tenorsans;
+    font-size: 15px;
+    font-size: 1.2vw;
+}
+
+div#contact-us {
+    text-align: center;
+}
+
+div#contact-us div.title{
+    font-family: julius;
+    font-size: 30px;
+    font-size: 2.5vw;
+    font-weight: BOLD;
+    letter-spacing: 2px;
+}
+
+div#contact-us div.description {
+    width: 70%;
+    padding: 0 15%;
+}
+
+div#contact-us div.contacts {
+    width: 70%;
+    padding: 25px 15% 0 15%;
+    text-align: center;
+}
+
+div#contact-us div.method {
+    width: 50%;
+    margin: 3% 0;
+    display: inline-block;
+}
+
+div#contact-us div.method div.title {
+    font-family: roboto;
+    font-size: 20px;
+    font-size: 1.5vw;
+    font-weight: BOLD;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div#events {
+    text-align: center;
+}
+
+div#events div.event-content{
+    float: left;
+    position: relative;
+    width: 70%;
+    padding: 0 15%;
+}
+
+div#events div.title {
+    font-family: julius;
+    font-size: 30px;
+    font-size: 2.5vw;
+    font-weight: BOLD;
+    letter-spacing: 2px;
+    text-align: center;
+    background: url(../img/dotted_border.png) repeat-x 0 100%;
+    padding-bottom: 20px;
+}
+
+div#events ul {
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+div#events li {
+    float: left;
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+    padding: 20px 0;
+    background: url(../img/dotted_border.png) repeat-x 0 100%;
+}
+
+div#events span {
+    width: 100%;
+    float: left;
+}
+
+div#events span.left {
+    text-align: left;
+    width: 50%;
+}
+
+div#events span.right {
+    text-align: right;
+    width: 50%;
+}
+
+div.thanks {
+    font-family: julius;
+    font-size: 15px;
+    font-size: 1.2vw;
+}
+div.thanksMessage {
+    font-size: 30px;
+    font-size: 2.5vw;
+    font-weight: BOLD;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+div#card {
+    float: left;
+    width: 27%;
+    padding: 0 3%;
+}
+
+div.donate {
+    text-align: center;
+}
+
+div#check {
+    float: left;
+    width: 27%;
+    padding: 0 3%;
+}
+
+div#check span#payto {
+    font-family: roboto;
+    font-size: 14px;
+    font-size: 1.1vw;
+}
+
+div.thanks div#other {
+    float: left;
+    width: 27%;
+    padding: 0 3%;
+}
+
+div.thanks div.title {
+    font-family: roboto;
+    font-size: 20px;
+    font-size: 1.5vw;
+    font-weight: BOLD;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div.thanks div.description {
+    padding-bottom: 10px;
+}
+
+div#thanksFooter {
+    clear: both;
+    width: 100%;
+    padding-top: 75px;
+}
