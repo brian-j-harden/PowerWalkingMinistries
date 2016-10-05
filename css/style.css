@@ -40,6 +40,12 @@
         url(../font/roboto-medium-webfont.ttf) /* Safari, Android, iOS */
 }
 
+@font-face {
+    font-family: shadowsintolight;
+    src: url(../font/shadowsintolight-webfont.eot), /* IE Compat Modes */
+    url(../font/shadowsintolight-webfont.woff), /* Modern Browsers */
+    url(../font/shadowsintolight-webfont.ttf) /* Safari, Android, iOS */
+}
 body {
     background-color: #f0f0f0;
     font-family: tenorsans;
@@ -225,6 +231,33 @@ div.story {
     font-family: tenorsans;
     font-size: 15px;
     font-size: 1.2vw;
+}
+
+div.testimonial {
+    clear: both;
+}
+
+div.T-img-left {
+    float: left;
+    width: 50%;
+    padding: 0px 15px 15px 0px;
+}
+
+div.T-img-right {
+    float: right;
+    width: 50%;
+    padding: 0px 0px 15px 15px;
+}
+
+div.T-img img{
+    width: 100%;
+}
+
+div.T-desc {
+    padding-top: 10vh;
+    font-family: shadowsintolight;
+    font-size: 19px;
+    font-size: 1.5vw;
 }
 
 div#contact-us {

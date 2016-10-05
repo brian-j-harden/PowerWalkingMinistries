@@ -120,6 +120,18 @@ $(function(){
                 transport: 'beacon'
             });
         });
+        $("#testimonials").on("click", function () {
+            $("#about-content").load("templates/testimonials.html");
+
+            // Google Analytics
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Navigation',
+                eventAction: 'click',
+                eventLabel: 'Testimonials',
+                transport: 'beacon'
+            });
+        })
         $("#contactUs").on("click", function () {
             $("#about-content").load("templates/contact.html");
 
