@@ -142,6 +142,22 @@ $(function(){
                 transport: 'beacon'
             });
         });
+        $("#guidelines").on("click", function () {
+            $("#about-content").load("templates/guidelines.html");
+
+            $(".menu-link").removeClass("selected");
+            $("#aboutUs").addClass("selected");
+            $("#guidelines").addClass("selected");
+
+            // Google Analytics
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Navigation',
+                eventAction: 'click',
+                eventLabel: 'Guidelines',
+                transport: 'beacon'
+            });
+        });
         $("#testimonials").on("click", function () {
             $("#about-content").load("templates/testimonials.html");
 
