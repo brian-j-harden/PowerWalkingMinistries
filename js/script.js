@@ -21,8 +21,13 @@ $(function(){
 
     // Setup menu
     function setupMenu() {
+        $("#home").addClass("selected");
+
         $("#home").on("click", function () {
             $("#content").load("templates/home.html");
+
+            $(".menu-link").removeClass("selected");
+            $("#home").addClass("selected");
 
             // Google Analytics
             ga('send', {
@@ -41,6 +46,10 @@ $(function(){
                 $("#about-content").load("templates/story.html");
                 setTimeout(function(){
                     setupAboutMenu();
+
+                    $(".menu-link").removeClass("selected");
+                    $("#aboutUs").addClass("selected");
+                    $("#ourStory").addClass("selected");
                 }, 100);
             });
 
@@ -56,6 +65,9 @@ $(function(){
         $("#events").on("click", function () {
             $("#content").load("templates/events.html");
 
+            $(".menu-link").removeClass("selected");
+            $("#events").addClass("selected");
+
             // Google Analytics
             ga('send', {
                 hitType: 'event',
@@ -67,6 +79,8 @@ $(function(){
         });
         $("#give").on("click", function () {
             $("#content").load("templates/thanks.html");
+
+            $(".menu-link").removeClass("selected");
 
             // Google Analytics
             ga('send', {
@@ -99,6 +113,10 @@ $(function(){
         $("#stats").on("click", function () {
             $("#about-content").load("templates/stats.html");
 
+            $(".menu-link").removeClass("selected");
+            $("#aboutUs").addClass("selected");
+            $("#stats").addClass("selected");
+
             // Google Analytics
             ga('send', {
                 hitType: 'event',
@@ -110,6 +128,10 @@ $(function(){
         });
         $("#ourStory").on("click", function () {
             $("#about-content").load("templates/story.html");
+
+            $(".menu-link").removeClass("selected");
+            $("#aboutUs").addClass("selected");
+            $("#ourStory").addClass("selected");
 
             // Google Analytics
             ga('send', {
@@ -123,6 +145,10 @@ $(function(){
         $("#testimonials").on("click", function () {
             $("#about-content").load("templates/testimonials.html");
 
+            $(".menu-link").removeClass("selected");
+            $("#aboutUs").addClass("selected");
+            $("#testimonials").addClass("selected");
+
             // Google Analytics
             ga('send', {
                 hitType: 'event',
@@ -134,6 +160,10 @@ $(function(){
         })
         $("#contactUs").on("click", function () {
             $("#about-content").load("templates/contact.html");
+
+            $(".menu-link").removeClass("selected");
+            $("#aboutUs").addClass("selected");
+            $("#contactUs").addClass("selected");
 
             // Google Analytics
             ga('send', {

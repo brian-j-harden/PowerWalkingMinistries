@@ -422,3 +422,13 @@ div#thanksFooter {
     width: 100%;
     padding-top: 75px;
 }
+
+.selected {
+    text-decoration: underline;
+}
+
+.selected:hover {
+    cursor: text;
+}
+
+
