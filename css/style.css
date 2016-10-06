@@ -64,11 +64,10 @@ div.header {
 
 div.header-img {
     height: 100%;
-    background: url(../img/header3.png) no-repeat left bottom;
+    background: url(../img/full_header.png) no-repeat left bottom;
     float: right;
     position: relative;
-    margin-top: -12vw;
-    width: 85vw;
+    width: 100%;
     background-size: cover;
 }
 
@@ -151,13 +150,13 @@ div.home-img img {
 div.home-text {
     float: right;
     padding-top: 3vh;
-    width: calc(50% - 5vw);}
+    width: 50%;
+}
 
 div.believe {
     font-family: great-vibes;
     font-size: 4vw;
     letter-spacing: .3vw;
-    margin-left: -5vw;
 }
 
 div.belief {
@@ -166,6 +165,7 @@ div.belief {
     line-height: 1.7em;
     width: 90%;
     letter-spacing: .6vw;
+    padding-left: 5vw;
 }
 
 div.jesus {
@@ -175,7 +175,6 @@ div.jesus {
     letter-spacing: .3vw;
     padding-top: 2vw;
     position: relative;
-    left: -4vw;
 }
 
 div.signature {
@@ -185,7 +184,8 @@ div.signature {
     line-height: 1.7em;
     padding-top: 3vw;
     position: relative;
-    left: 10vw;}
+    padding-left: 15vw;
+}
 
 div.left-menu {
     font-family: cabin-bold;
