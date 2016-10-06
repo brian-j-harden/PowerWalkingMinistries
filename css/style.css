@@ -49,27 +49,32 @@
 body {
     background-color: #f0f0f0;
     font-family: tenorsans;
-    font-size: 15px;
     font-size: 1.2vw;
 }
 
+ul {
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
 div.header {
-    height: 150px;
+    height: 12vw;
 }
 
 div.header-img {
-    width: 90%;
-    position: absolute;
-    right: 5px;
-    background-image: url(../img/header3.png);
-    background-position: left bottom;
-    height: 150px;
+    height: 100%;
+    background: url(../img/header3.png) no-repeat left bottom;
+    float: right;
+    position: relative;
+    margin-top: -12vw;
+    width: 85vw;
+    background-size: cover;
 }
 
 div.logo {
     float: left;
-    left: 0px;
-    width: 20%;
+    width: 20vw;
     height: 100%;
 }
 
@@ -78,30 +83,34 @@ div.logo {
 }
 
 div.mission {
-    position: absolute;
-    top: 150px;
     text-align: center;
     width: 100%;
     font-family: shadowsintolight;
-    font-size: 18px;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     font-weight: bold;
 }
 
+div.spacer {
+    height: 100%;
+    width: 1px;
+    background: url(../img/spacer.png);
+}
+
+div#menu {
+    height: 5vw;
+}
+
 div.menu {
-    height: 45px;
-    font-family: cabin-bold;
-    font-size: 25px;
-    font-size: 1.8vw;
-    padding-top: 30px;
     float: right;
-    padding-right: 20px;
+    font-family: cabin-bold;
+    font-size: 1.8vw;
+    padding-top: 10px;
+    padding-right: 3vw;
     color: black;
-    clear: both;
 }
 
 div.menu span {
-    margin-left: 50px;
+    margin-left: 3vw;
 }
 
 .menu-link:hover {
@@ -122,9 +131,12 @@ span#give:hover {
 
 div#content {
     clear: both;
-    padding-top: 5%;
-    padding-top: 5vh;
-    margin: 0px 50px;
+    margin: 0px 3vw;
+    padding-top: 3vw;
+}
+
+div#home-content {
+    margin-top: -3vw;
 }
 
 div.home-img {
@@ -138,54 +150,45 @@ div.home-img img {
 
 div.home-text {
     float: right;
-    padding-top: 80px;
-    padding-left: 30px;
-    width: calc(50% - 30px);
-}
+    padding-top: 3vh;
+    width: calc(50% - 5vw);}
 
 div.believe {
     font-family: great-vibes;
-    font-size: 40px;
     font-size: 4vw;
-    letter-spacing: 2px;
-    padding-left: 50px;
+    letter-spacing: .3vw;
+    margin-left: -5vw;
 }
 
 div.belief {
     font-family: julius;
-    font-size: 20px;
     font-size: 1.5vw;
-    letter-spacing: 2px;
     line-height: 1.7em;
-    padding-left: 50px;
-    width: 70%;
+    width: 90%;
+    letter-spacing: .6vw;
 }
 
 div.jesus {
     font-family: roboto;
-    font-size: 20px;
     font-size: 1.5vw;
     font-weight: BOLD;
-    letter-spacing: 2px;
-    padding-top: 10px;
-    padding-left: 60px;
+    letter-spacing: .3vw;
+    padding-top: 2vw;
     position: relative;
-    left: -70px;
+    left: -4vw;
 }
 
 div.signature {
-    padding-left: 15vw;
-    padding-top: 50px;
     font-family: julius;
-    font-size: 20px;
     font-size: 1.5vw;
-    letter-spacing: 2px;
+    letter-spacing: .3vw;
     line-height: 1.7em;
-}
+    padding-top: 3vw;
+    position: relative;
+    left: 10vw;}
 
 div.left-menu {
     font-family: cabin-bold;
-    font-size: 25px;
     font-size: 1.8vw;
     float: left;
     width: 15%;
@@ -193,35 +196,34 @@ div.left-menu {
 }
 
 div.left-menu div.menu-link{
-    padding-bottom: 20px;
+    padding-bottom: 2vw;
 }
 
 
 div#about-content {
     float: right;
     width: 80%;
-    padding-bottom: 100px;
+    padding-bottom: 10vw;
 }
 
 div.stats {
     font-family: julius;
-    font-size: 15px;
     font-size: 1.2vw;
 }
 
 div.stats div.title {
-    font-size: 30px;
     font-size: 2.5vw;
     font-weight: BOLD;
-    letter-spacing: 2px;
+    letter-spacing: .3vw;
     text-align: center;
 }
 
 div.stats li{
     text-align: center;
-    padding: 30px 0 50px 0;
+    padding: 2vw 0 4vw 0;
     list-style-type: none;
-    background: url(../img/walking-shoes.png) no-repeat center 100%;
+    background: url(../img/walking-shoes.png) no-repeat bottom center;
+    background-size: 15vw;
 }
 
 div.stats li:last-child{
@@ -230,31 +232,36 @@ div.stats li:last-child{
 
 div.guidelines {
     font-family: julius;
-    font-size: 15px;
     font-size: 1.2vw;
 }
 
 div.guidelines div.title {
-    font-size: 30px;
     font-size: 2.5vw;
     font-weight: BOLD;
-    letter-spacing: 2px;
+    letter-spacing: .3vw;
     text-align: center;
 }
 
 div.guidelines li{
-    padding-top: 25px;
-    list-style-image: url(../img/bullet-shoe.png);
+    padding-top: 2vw;
+    list-style:none;
 }
 
-div.guidelines li:last-child{
-    background: none;
+div.guidelines li:before {
+    content: '';
+    display: inline-block;
+    height: 1vw;
+    width: 3vw;
+    background-image: url(../img/bullet-shoe.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
 }
 
 div#wendy-div {
     float: left;
-    width: 30%;
-    padding: 0px 15px 15px 0px;
+    width: 22vw;
+    padding: 0 2vw 2vw 0;
 }
 
 img#wendy-img {
@@ -263,7 +270,6 @@ img#wendy-img {
 
 div.story {
     font-family: tenorsans;
-    font-size: 15px;
     font-size: 1.2vw;
 }
 
@@ -291,7 +297,6 @@ div.T-img img{
 div.T-desc {
     padding-top: 10px;
     font-family: shadowsintolight;
-    font-size: 19px;
     font-size: 1.5vw;
 }
 
@@ -316,10 +321,9 @@ div#contact-us {
 
 div#contact-us div.title{
     font-family: julius;
-    font-size: 30px;
     font-size: 2.5vw;
     font-weight: BOLD;
-    letter-spacing: 2px;
+    letter-spacing: .3vw;
 }
 
 div#contact-us div.description {
@@ -329,24 +333,23 @@ div#contact-us div.description {
 
 div#contact-us div.contacts {
     width: 70%;
-    padding: 25px 15% 0 15%;
+    padding: 1vw 15% 0 15%;;
     text-align: center;
 }
 
 div#contact-us div.method {
     width: 50%;
-    margin: 3% 0;
+    margin: 1vw 0;
     display: inline-block;
 }
 
 div#contact-us div.method div.title {
     font-family: roboto;
-    font-size: 20px;
     font-size: 1.5vw;
     font-weight: BOLD;
-    letter-spacing: 2px;
+    letter-spacing: .3vw;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: .3vw;
 }
 
 div#events {
@@ -362,19 +365,12 @@ div#events div.event-content{
 
 div#events div.title {
     font-family: julius;
-    font-size: 30px;
     font-size: 2.5vw;
     font-weight: BOLD;
-    letter-spacing: 2px;
+    letter-spacing: .3vw;
     text-align: center;
     background: url(../img/dotted_border.png) repeat-x 0 100%;
-    padding-bottom: 20px;
-}
-
-div#events ul {
-    -webkit-padding-start: 0;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
+    padding-bottom: 2vw;
 }
 
 div#events li {
@@ -382,7 +378,7 @@ div#events li {
     position: relative;
     width: 100%;
     list-style-type: none;
-    padding: 20px 0;
+    padding: 1.5vw 0;
     background: url(../img/dotted_border.png) repeat-x 0 100%;
 }
 
@@ -408,17 +404,15 @@ div#events span.right {
 
 div.thanks {
     font-family: julius;
-    font-size: 15px;
     font-size: 1.2vw;
 }
 
 div.thanksMessage {
-    font-size: 30px;
     font-size: 2.5vw;
     font-weight: BOLD;
-    letter-spacing: 2px;
+    letter-spacing: .3vw;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 4vw;
 }
 
 div#card {
@@ -431,6 +425,10 @@ div.donate {
     text-align: center;
 }
 
+form#donate input {
+    width: 12vw;
+}
+
 div#check {
     float: left;
     width: 27%;
@@ -439,7 +437,6 @@ div#check {
 
 div#check span#payto {
     font-family: roboto;
-    font-size: 14px;
     font-size: 1.1vw;
 }
 
@@ -451,26 +448,25 @@ div.thanks div#other {
 
 div.thanks div.title {
     font-family: roboto;
-    font-size: 20px;
     font-size: 1.5vw;
     font-weight: BOLD;
-    letter-spacing: 2px;
+    letter-spacing: .2vw;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: .8vw;
 }
 
 div.thanks div.description {
-    padding-bottom: 25px;
+    padding-bottom: 2vw;
 }
 
 div.thanks div.contactPhone {
-    padding-top: 15px;
+    padding-top: 1vw;
 }
 
 div#thanksFooter {
     clear: both;
     width: 100%;
-    padding-top: 75px;
+    padding-top: 5vw;
 }
 
 .selected {
