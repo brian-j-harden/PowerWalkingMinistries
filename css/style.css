@@ -244,9 +244,9 @@ div.guidelines div.title {
 
 div.guidelines li{
     padding-top: 2vw;
-    list-style:none;
+    list-style-image: url(../img/bullet-shoe1.png);
 }
-
+/*
 div.guidelines li:before {
     content: '';
     display: inline-block;
@@ -257,7 +257,7 @@ div.guidelines li:before {
     background-repeat: no-repeat;
 
 }
-
+*/
 div#wendy-div {
     float: left;
     width: 22vw;
