@@ -246,18 +246,11 @@ div.guidelines li{
     padding-top: 2vw;
     list-style-image: url(../img/bullet-shoe1.png);
 }
-/*
-div.guidelines li:before {
-    content: '';
-    display: inline-block;
-    height: 1vw;
-    width: 3vw;
-    background-image: url(../img/bullet-shoe.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
 
+div.guidelines ul{
+    -webkit-padding-start: 20px;
 }
-*/
+
 div#wendy-div {
     float: left;
     width: 22vw;
@@ -274,7 +267,7 @@ div.story {
 }
 
 div.testimonial {
-    padding-top: 30px;
+    padding-top: 2vw;
     clear: both;
 }
 
