@@ -17,3 +17,5 @@
 
 </IfModule>
 # END EXPIRES
+
+DirectoryIndex index.html

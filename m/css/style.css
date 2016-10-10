@@ -1,0 +1,484 @@
+@font-face {
+    font-family: great-vibes;
+    src: url(../font/greatvibes-regular-webfont.eot), /* IE Compat Modes */
+        url(../font/greatvibes-regular-webfont.woff), /* Modern Browsers */
+        url(../font/greatvibes-regular-webfont.ttf) /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: julius;
+    src: url(../font/juliussansone-regular-webfont.eot), /* IE Compat Modes */
+        url(../font/juliussansone-regular-webfont.woff), /* Modern Browsers */
+        url(../font/juliussansone-regular-webfont.ttf) /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: cabin-bold;
+    src: url(../font/cabinsketch-bold-webfont.eot), /* IE Compat Modes */
+        url(../font/cabinsketch-bold-webfont.woff), /* Modern Browsers */
+        url(../font/cabinsketch-bold-webfont.ttf) /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: gruppo;
+    src: url(../font/gruppo-regular-webfont.eot), /* IE Compat Modes */
+        url(../font/gruppo-regular-webfont.woff), /* Modern Browsers */
+        url(../font/gruppo-regular-webfont.ttf) /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: tenorsans;
+    src: url(../font/tenorsans-regular-webfont.eot), /* IE Compat Modes */
+        url(../font/tenorsans-regular-webfont.woff), /* Modern Browsers */
+        url(../font/tenorsans-regular-webfont.ttf) /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../font/roboto-medium-webfont.eot), /* IE Compat Modes */
+        url(../font/roboto-medium-webfont.woff), /* Modern Browsers */
+        url(../font/roboto-medium-webfont.ttf) /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: shadowsintolight;
+    src: url(../font/shadowsintolight-webfont.eot), /* IE Compat Modes */
+    url(../font/shadowsintolight-webfont.woff), /* Modern Browsers */
+    url(../font/shadowsintolight-webfont.ttf) /* Safari, Android, iOS */
+}
+body {
+    background-color: #f0f0f0;
+    font-family: tenorsans;
+    font-size: 2vw;
+}
+
+ul {
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+div.header {
+    height: 18vw;
+}
+
+div.header-img {
+    height: 100%;
+    background: url(../img/full_header.png) no-repeat left bottom;
+    float: right;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+div.logo {
+    float: left;
+    width: 20vw;
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+div.mission {
+    text-align: center;
+    width: 100%;
+    font-family: shadowsintolight;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+div.spacer {
+    height: 100%;
+    width: 1px;
+    background: url(../img/spacer.png);
+}
+
+div#menu {
+    height: 5vw;
+    text-align: center;
+}
+
+div.menu {
+    font-family: cabin-bold;
+    font-size: 3vw;
+    padding-top: 10px;
+    color: black;
+}
+
+div.menu span {
+    margin-left: 3vw;
+}
+
+.menu-link:hover {
+    cursor: pointer;
+}
+
+span#give {
+    border: 2px solid #000;
+    border-radius: 300px;
+    background-color: transparent;
+    padding: 5px;
+}
+
+span#give:hover {
+    color: #f0f0f0;
+    background-color: black;
+}
+
+div#content {
+    clear: both;
+    margin: 0px 3vw;
+    padding-top: 8vw;
+}
+
+div#home-content {
+    margin-top: -3vw;
+}
+
+div.home-img {
+    float: left;
+    width: 50%;
+    padding-top: 2vw;
+}
+
+div.home-img img {
+    width: 100%;
+}
+
+div.home-text {
+    float: right;
+    padding-top: 2vw;
+    width: 50%;
+}
+
+div.believe {
+    font-family: great-vibes;
+    font-size: 8vw;
+    letter-spacing: .3vw;
+}
+
+div.belief {
+    font-family: julius;
+    font-size: 2.3vw;
+    line-height: 1.7em;
+    width: 90%;
+    letter-spacing: .6vw;
+    padding-left: 5vw;
+}
+
+div.jesus {
+    font-family: roboto;
+    font-size: 2.3vw;
+    font-weight: BOLD;
+    letter-spacing: .3vw;
+    padding-top: 2vw;
+    position: relative;
+}
+
+div.signature {
+    font-family: julius;
+    font-size: 2.3vw;
+    letter-spacing: .3vw;
+    line-height: 1.7em;
+    padding-top: 3vw;
+    position: relative;
+    padding-left: 15vw;
+}
+
+div.left-menu {
+    font-family: cabin-bold;
+    font-size: 3vw;
+    float: left;
+    width: 25%;
+    clear: both;
+}
+
+div.left-menu div.menu-link{
+    padding-bottom: 2vw;
+}
+
+
+div#about-content {
+    float: right;
+    width: 75%;
+    padding-bottom: 10vw;
+}
+
+div.stats {
+    font-family: julius;
+    font-size: 2vw;
+}
+
+div.stats div.title {
+    font-size: 4vw;
+    font-weight: BOLD;
+    letter-spacing: .3vw;
+    text-align: center;
+}
+
+div.stats li{
+    text-align: center;
+    padding: 2vw 0 4vw 0;
+    list-style-type: none;
+    background: url(../img/walking-shoes.png) no-repeat bottom center;
+    background-size: 15vw;
+}
+
+div.stats li:last-child{
+    background: none;
+}
+
+div.guidelines {
+    font-family: julius;
+    font-size: 2vw;
+}
+
+div.guidelines div.title {
+    font-size: 4vw;
+    font-weight: BOLD;
+    letter-spacing: .3vw;
+    text-align: center;
+}
+
+div.guidelines li{
+    padding-top: 2vw;
+    list-style-image: url(../img/bullet-shoe1.png);
+}
+/*
+div.guidelines li:before {
+    content: '';
+    display: inline-block;
+    height: 1vw;
+    width: 3vw;
+    background-image: url(../img/bullet-shoe.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+*/
+div#wendy-div {
+    float: left;
+    width: 22vw;
+    padding: 0 2vw 2vw 0;
+}
+
+img#wendy-img {
+    width: 100%;
+}
+
+div.story {
+    font-family: tenorsans;
+    font-size: 2vw;
+}
+
+div.testimonial {
+    padding-top: 30px;
+    clear: both;
+}
+
+div.T-img-left {
+    float: left;
+    width: 50%;
+    padding: 0px 15px 15px 0px;
+}
+
+div.T-img-right {
+    float: right;
+    width: 50%;
+    padding: 0px 0px 15px 15px;
+}
+
+div.T-img img{
+    width: 100%;
+}
+
+div.T-desc {
+    padding-top: 10px;
+    font-family: shadowsintolight;
+    font-size: 2vw;
+}
+
+div.t-content div.right {
+    float: right;
+    width: calc(50% - 15px);
+}
+
+div.t-content div.left {
+    float: left;
+    width: calc(50% - 15px);
+}
+
+div#t1-sign {
+    left: 50px;
+    position: relative;
+}
+
+div#contact-us {
+    text-align: center;
+}
+
+div#contact-us div.title{
+    font-family: julius;
+    font-size: 4vw;
+    font-weight: BOLD;
+    letter-spacing: .3vw;
+    padding-bottom: 1vw;
+}
+
+div#contact-us div.description {
+    width: 70%;
+    padding: 0 15%;
+}
+
+div#contact-us div.contacts {
+    width: 70%;
+    padding: 1vw 15% 0 15%;;
+    text-align: center;
+}
+
+div#contact-us div.method {
+    margin: 1vw 0;
+    display: inline-block;
+}
+
+div#contact-us div.method div.title {
+    font-family: roboto;
+    font-size: 1.5vw;
+    font-weight: BOLD;
+    letter-spacing: .3vw;
+    text-align: center;
+    padding-bottom: .3vw;
+}
+
+div#events {
+    text-align: center;
+}
+
+div#events div.event-content{
+    float: left;
+    position: relative;
+    width: 70%;
+    padding: 0 15%;
+}
+
+div#events div.title {
+    font-family: julius;
+    font-size: 4vw;
+    font-weight: BOLD;
+    letter-spacing: .3vw;
+    text-align: center;
+    background: url(../img/dotted_border.png) repeat-x 0 100%;
+    padding-bottom: 2vw;
+}
+
+div#events li {
+    float: left;
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+    padding: 1.5vw 0;
+    background: url(../img/dotted_border.png) repeat-x 0 100%;
+}
+
+div#events span {
+    width: 100%;
+    float: left;
+}
+
+div#events span.title {
+    color: red;
+    font-weight: bold;
+}
+
+div#events span.left {
+    text-align: left;
+    width: 50%;
+}
+
+div#events span.right {
+    text-align: right;
+    width: 50%;
+}
+
+div.thanks {
+    font-family: julius;
+    font-size: 2vw;
+}
+
+div.thanksMessage {
+    font-size: 4vw;
+    font-weight: BOLD;
+    letter-spacing: .3vw;
+    text-align: center;
+    padding-bottom: 4vw;
+}
+
+div#card {
+    float: left;
+    width: 28%;
+    padding: 0 2%;
+}
+
+div.donate {
+    text-align: center;
+}
+
+form#donate input {
+    width: 20vw;
+}
+
+div#check {
+    float: left;
+    width: 28%;
+    padding: 0 2%;
+}
+
+div#check span#payto {
+    font-family: roboto;
+    font-size: 2vw;
+}
+
+div.thanks div#other {
+    float: left;
+    width: 28%;
+    padding: 0 2%;
+}
+
+div.thanks div.title {
+    font-family: roboto;
+    font-size: 1.5vw;
+    font-weight: BOLD;
+    letter-spacing: .2vw;
+    text-align: center;
+    padding-bottom: .8vw;
+}
+
+div.thanks div.description {
+    padding-bottom: 2vw;
+}
+
+div.thanks div.contactPhone {
+    padding-top: 1vw;
+}
+
+div.thanks div.contactEmail {
+    font-size: 1.7vw;
+}
+
+div#thanksFooter {
+    clear: both;
+    width: 100%;
+    padding-top: 5vw;
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+.selected:hover {
+    cursor: text;
+}
+
+
