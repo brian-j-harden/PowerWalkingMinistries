@@ -19,3 +19,9 @@
 # END EXPIRES
 
 DirectoryIndex index.html
+
+RewriteEngine On
+# Check for mime types commonly accepted by mobile devices
+RewriteCond %{HTTP_ACCEPT} "text\/vnd\.wap\.wml|application\/vnd\.wap\.xhtml\+xml" [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^ http://m.powerwalkingministries.com%{REQUEST_URI} [R,L]
