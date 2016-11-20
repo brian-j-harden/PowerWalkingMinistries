@@ -19,7 +19,7 @@ $(function(){
         }
     };
 
-    $(['full_header.png','home_shoes.png']).preload(function() {
+    $(['full_header.jpg','home_shoes.jpg']).preload(function() {
         $("#header").load("templates/header.html", function () {
             $(".header-img").fadeIn( "slow");
         });
@@ -37,7 +37,7 @@ $(function(){
     });
 
     // preload remaining pictures so rest of page loads well.
-    $(['Wendy.png','T-1.png','T-2.png','spacer.png','walking-shoes.png']).preload();
+    $(['Wendy.jpg','T-1.jpg','T-2.jpg','spacer.png','walking-shoes.png']).preload();
 
     // Setup menu
     function setupMenu() {
