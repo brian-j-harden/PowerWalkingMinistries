@@ -1,50 +1,50 @@
 @font-face {
     font-family: great-vibes;
-    src: url(../m/font/greatvibes-regular-webfont.eot), /* IE Compat Modes */
-        url(../m/font/greatvibes-regular-webfont.woff), /* Modern Browsers */
-        url(../m/font/greatvibes-regular-webfont.ttf) /* Safari, Android, iOS */
+    src: url(../font/greatvibes-regular-webfont.eot), /* IE Compat Modes */
+        url(../font/greatvibes-regular-webfont.woff), /* Modern Browsers */
+        url(../font/greatvibes-regular-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: julius;
-    src: url(../m/font/juliussansone-regular-webfont.eot), /* IE Compat Modes */
-        url(../m/font/juliussansone-regular-webfont.woff), /* Modern Browsers */
-        url(../m/font/juliussansone-regular-webfont.ttf) /* Safari, Android, iOS */
+    src: url(../font/juliussansone-regular-webfont.eot), /* IE Compat Modes */
+        url(../font/juliussansone-regular-webfont.woff), /* Modern Browsers */
+        url(../font/juliussansone-regular-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: cabin-bold;
-    src: url(../m/font/cabinsketch-bold-webfont.eot), /* IE Compat Modes */
-        url(../m/font/cabinsketch-bold-webfont.woff), /* Modern Browsers */
-        url(../m/font/cabinsketch-bold-webfont.ttf) /* Safari, Android, iOS */
+    src: url(../font/cabinsketch-bold-webfont.eot), /* IE Compat Modes */
+        url(../font/cabinsketch-bold-webfont.woff), /* Modern Browsers */
+        url(../font/cabinsketch-bold-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: gruppo;
-    src: url(../m/font/gruppo-regular-webfont.eot), /* IE Compat Modes */
-        url(../m/font/gruppo-regular-webfont.woff), /* Modern Browsers */
-        url(../m/font/gruppo-regular-webfont.ttf) /* Safari, Android, iOS */
+    src: url(../font/gruppo-regular-webfont.eot), /* IE Compat Modes */
+        url(../font/gruppo-regular-webfont.woff), /* Modern Browsers */
+        url(../font/gruppo-regular-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: tenorsans;
-    src: url(../m/font/tenorsans-regular-webfont.eot), /* IE Compat Modes */
-        url(../m/font/tenorsans-regular-webfont.woff), /* Modern Browsers */
-        url(../m/font/tenorsans-regular-webfont.ttf) /* Safari, Android, iOS */
+    src: url(../font/tenorsans-regular-webfont.eot), /* IE Compat Modes */
+        url(../font/tenorsans-regular-webfont.woff), /* Modern Browsers */
+        url(../font/tenorsans-regular-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: roboto;
-    src: url(../m/font/roboto-medium-webfont.eot), /* IE Compat Modes */
-        url(../m/font/roboto-medium-webfont.woff), /* Modern Browsers */
-        url(../m/font/roboto-medium-webfont.ttf) /* Safari, Android, iOS */
+    src: url(../font/roboto-medium-webfont.eot), /* IE Compat Modes */
+        url(../font/roboto-medium-webfont.woff), /* Modern Browsers */
+        url(../font/roboto-medium-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: shadowsintolight;
-    src: url(../m/font/shadowsintolight-webfont.eot), /* IE Compat Modes */
-    url(../m/font/shadowsintolight-webfont.woff), /* Modern Browsers */
-    url(../m/font/shadowsintolight-webfont.ttf) /* Safari, Android, iOS */
+    src: url(../font/shadowsintolight-webfont.eot), /* IE Compat Modes */
+    url(../font/shadowsintolight-webfont.woff), /* Modern Browsers */
+    url(../font/shadowsintolight-webfont.ttf) /* Safari, Android, iOS */
 }
 body {
     background-color: #f0f0f0;
@@ -64,7 +64,7 @@ div.header {
 
 div.header-img {
     height: 100%;
-    background: url(../m/img/full_header.png) no-repeat left bottom;
+    background: url(../img/full_header.png) no-repeat left bottom;
     float: right;
     position: relative;
     width: 100%;
@@ -93,7 +93,7 @@ div.mission {
 div.spacer {
     height: 100%;
     width: 1px;
-    background: url(../m/img/spacer.png);
+    background: url(../img/spacer.png);
 }
 
 div#menu {
@@ -224,7 +224,7 @@ div.stats li{
     text-align: center;
     padding: 2vw 0 4vw 0;
     list-style-type: none;
-    background: url(../m/img/walking-shoes.png) no-repeat bottom center;
+    background: url(../img/walking-shoes.png) no-repeat bottom center;
     background-size: 15vw;
 }
 
@@ -246,7 +246,7 @@ div.guidelines div.title {
 
 div.guidelines li{
     padding-top: 2vw;
-    list-style-image: url(../m/img/bullet-shoe1.png);
+    list-style-image: url(../img/bullet-shoe1.png);
 }
 /*
 div.guidelines li:before {
@@ -371,7 +371,7 @@ div#events div.title {
     font-weight: BOLD;
     letter-spacing: .3vw;
     text-align: center;
-    background: url(../m/img/dotted_border.png) repeat-x 0 100%;
+    background: url(../img/dotted_border.png) repeat-x 0 100%;
     padding-bottom: 2vw;
 }
 
@@ -381,7 +381,7 @@ div#events li {
     width: 100%;
     list-style-type: none;
     padding: 1.5vw 0;
-    background: url(../m/img/dotted_border.png) repeat-x 0 100%;
+    background: url(../img/dotted_border.png) repeat-x 0 100%;
 }
 
 div#events span {
