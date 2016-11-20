@@ -13,7 +13,9 @@ $(function(){
             $('<img/>')[0].src = 'img/'+this;
         });
         if(callback && typeof callback == "function") {
-            callback();
+            setTimeout(function(){
+                callback();
+            }, 1000);
         }
     };
 

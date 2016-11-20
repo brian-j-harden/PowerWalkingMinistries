@@ -2,72 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4b3de55-845f-4009-aadc-34d094d2b5bf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/CabinSketch-Bold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/GreatVibes-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/Gruppo-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/JuliusSansOne-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/TenorSans-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/cabinsketch-bold-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/cabinsketch-bold-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/cabinsketch-bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/greatvibes-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/greatvibes-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/greatvibes-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/gruppo-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/gruppo-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/gruppo-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/juliussansone-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/juliussansone-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/juliussansone-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/roboto-medium-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/roboto-medium-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/roboto-medium-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/shadowsintolight-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/shadowsintolight-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/shadowsintolight-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/tenorsans-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/tenorsans-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/font/tenorsans-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/T-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/T-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/Wendy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/bullet-shoe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/bullet-shoe1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/dotted_border.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/full_header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/give.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/header2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/header3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/home_shoes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/shoes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/spacer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/img/walking-shoes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/js/pw.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/guidelines.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/stats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/story.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/testimonials.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/m/templates/thanks.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/CabinSketch-Bold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/GreatVibes-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/Gruppo-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/JuliusSansOne-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/Roboto-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/TenorSans-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/cabinsketch-bold-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/cabinsketch-bold-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/cabinsketch-bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/greatvibes-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/greatvibes-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/greatvibes-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/gruppo-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/gruppo-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/gruppo-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/juliussansone-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/juliussansone-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/juliussansone-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/roboto-medium-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/roboto-medium-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/roboto-medium-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/shadowsintolight-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/shadowsintolight-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/shadowsintolight-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/tenorsans-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/tenorsans-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/font/tenorsans-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/T-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/T-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/Wendy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/bullet-shoe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/bullet-shoe1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/dotted_border.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/full_header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/give.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/header2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/header3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/home_shoes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/shoes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/spacer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/img/walking-shoes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/js/pw.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/guidelines.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/stats.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/story.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/testimonials.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m/templates/thanks.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/pw.min.js" afterPath="$PROJECT_DIR$/js/pw.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js_raw/script.js" afterPath="$PROJECT_DIR$/js_raw/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m/css/style.css" afterPath="$PROJECT_DIR$/m/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m/index.html" afterPath="$PROJECT_DIR$/m/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/story.html" afterPath="$PROJECT_DIR$/templates/story.html" />
     </list>
     <ignored path="PowerWalkingMinistries.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,14 +85,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <marker date="1479604898000" expanded="true" signature="534:641" ph="..." />
+                <marker date="1479605812000" expanded="true" signature="537:644" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m/templates/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,8 +120,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js_raw/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="90">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -115,8 +130,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-934">
-              <caret line="374" column="26" selection-start-line="374" selection-start-column="26" selection-end-line="374" selection-end-column="26" />
+            <state relative-caret-position="134">
+              <caret line="365" column="24" selection-start-line="365" selection-start-column="24" selection-end-line="365" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -125,7 +140,7 @@
       <file leaf-file-name="pw.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/pw.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="30">
               <caret line="2" column="26157" selection-start-line="2" selection-start-column="26150" selection-end-line="2" selection-end-column="26157" />
               <folding />
             </state>
@@ -154,21 +169,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3390">
-              <caret line="226" column="40" selection-start-line="226" selection-start-column="27" selection-end-line="226" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+            <state relative-caret-position="420">
+              <caret line="383" column="25" selection-start-line="383" selection-start-column="25" selection-end-line="383" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -177,8 +182,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="390">
+              <caret line="26" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <marker date="1479603742000" expanded="true" signature="531:638" ph="..." />
               </folding>
@@ -220,14 +225,14 @@
         <option value="$PROJECT_DIR$/templates/menu.html" />
         <option value="$PROJECT_DIR$/templates/header.html" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js_raw/script.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/templates/story.html" />
         <option value="$PROJECT_DIR$/m/templates/story.html" />
-        <option value="$PROJECT_DIR$/m/css/style.css" />
+        <option value="$PROJECT_DIR$/js_raw/script.js" />
         <option value="$PROJECT_DIR$/m/index.html" />
+        <option value="$PROJECT_DIR$/m/css/style.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -314,34 +319,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PowerWalkingMinistries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PowerWalkingMinistries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js_raw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PowerWalkingMinistries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PowerWalkingMinistries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -356,7 +333,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="m" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,8 +377,8 @@
       <recent name="$PROJECT_DIR$/templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/m/js" />
       <recent name="$PROJECT_DIR$/m" />
+      <recent name="$PROJECT_DIR$/m/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -477,12 +458,12 @@
       <workItem from="1475331328419" duration="22763000" />
       <workItem from="1475784856541" duration="4497000" />
       <workItem from="1479600872618" duration="17000" />
-      <workItem from="1479600908532" duration="3656000" />
+      <workItem from="1479600908532" duration="4520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73731000" />
+    <option name="totallyTimeSpent" value="74595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -524,13 +505,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js_raw/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -834,13 +808,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/pw.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <marker date="1479603742000" expanded="true" signature="531:638" ph="..." />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="26157" selection-start-line="2" selection-start-column="26150" selection-end-line="2" selection-end-column="26157" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_raw/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -852,50 +837,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js_raw/script.js">
+    <entry file="file://$PROJECT_DIR$/m/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1479603742000" expanded="true" signature="531:638" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1479605812000" expanded="true" signature="537:644" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="365" column="24" selection-start-line="365" selection-start-column="24" selection-end-line="365" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3390">
-          <caret line="226" column="40" selection-start-line="226" selection-start-column="27" selection-end-line="226" selection-end-column="40" />
+        <state relative-caret-position="420">
+          <caret line="383" column="25" selection-start-line="383" selection-start-column="25" selection-end-line="383" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-934">
-          <caret line="374" column="26" selection-start-line="374" selection-start-column="26" selection-end-line="374" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/pw.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="2" column="26157" selection-start-line="2" selection-start-column="26150" selection-end-line="2" selection-end-column="26157" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1479604898000" expanded="true" signature="534:641" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
