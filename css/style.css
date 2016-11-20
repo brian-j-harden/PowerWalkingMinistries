@@ -69,6 +69,7 @@ div.header-img {
     position: relative;
     width: 100%;
     background-size: cover;
+    display: none;
 }
 
 div.logo {
@@ -141,6 +142,7 @@ div#home-content {
 div.home-img {
     float: left;
     width: 50%;
+    display: none;
 }
 
 div.home-img img {

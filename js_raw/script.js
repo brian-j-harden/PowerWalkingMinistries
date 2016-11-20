@@ -7,24 +7,44 @@ ga('create', 'UA-85112736-1', 'auto');
 ga('send', 'pageview');
 
 $(function(){
-    $("#header").load("templates/header.html");
-    $("#menu").load("templates/menu.html", function() {
-        // When setting up the menu, put in a 100 millisecond
-        // delay to ensure the menu loads completely before
-        // adding the listeners
-        setTimeout(function(){
-            setupMenu();
-        }, 100);
+    // Function used to preload images
+    $.fn.preload = function(callback) {
+        this.each(function(){
+            $('<img/>')[0].src = 'img/'+this;
+        });
+        if(callback && typeof callback == "function") {
+            callback();
+        }
+    };
+
+    $(['full_header.png','home_shoes.png']).preload(function() {
+        $("#header").load("templates/header.html", function () {
+            $(".header-img").fadeIn( "slow");
+        });
+        $("#menu").load("templates/menu.html", function() {
+            // When setting up the menu, put in a 100 millisecond
+            // delay to ensure the menu loads completely before
+            // adding the listeners
+            setTimeout(function(){
+                setupMenu();
+            }, 100);
+        });
+        $("#content").load("templates/home.html", function() {
+            $(".home-img").fadeIn( "slow");
+        });
     });
-    $("#content").load("templates/home.html");
-//    $("#footer").load("templates/footer.html");
+
+    // preload remaining pictures so rest of page loads well.
+    $(['Wendy.png','T-1.png','T-2.png','spacer.png','walking-shoes.png']).preload();
 
     // Setup menu
     function setupMenu() {
         $("#home").addClass("selected");
 
         $("#home").on("click", function () {
-            $("#content").load("templates/home.html");
+            $("#content").load("templates/home.html", function() {
+                $(".home-img").fadeIn( "slow");
+            });
 
             $(".menu-link").removeClass("selected");
             $("#home").addClass("selected");
