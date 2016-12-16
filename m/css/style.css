@@ -293,6 +293,10 @@ div.T-desc {
     font-size: 2vw;
 }
 
+div.T-desc img{
+    width: 100%;
+}
+
 div.t-content div.right {
     float: right;
     width: calc(50% - 15px);
