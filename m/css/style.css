@@ -470,6 +470,15 @@ div#thanksFooter {
     padding-top: 5vw;
 }
 
+div#news div.title {
+    font-family: julius;
+    font-size: 4vw;
+    font-weight: BOLD;
+    letter-spacing: .3vw;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
 .selected {
     text-decoration: underline;
 }
