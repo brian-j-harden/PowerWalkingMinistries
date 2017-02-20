@@ -99,6 +99,36 @@ $(function(){
                 transport: 'beacon'
             });
         });
+        $("#news").on("click", function () {
+            $("#content").load("templates/news.html");
+
+            $(".menu-link").removeClass("selected");
+            $("#news").addClass("selected");
+
+            // Google Analytics
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Navigation',
+                eventAction: 'click',
+                eventLabel: 'News',
+                transport: 'beacon'
+            });
+        });
+        $("#sponsors").on("click", function () {
+            $("#content").load("templates/sponsors.html");
+
+            $(".menu-link").removeClass("selected");
+            $("#sponsors").addClass("selected");
+
+            // Google Analytics
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Navigation',
+                eventAction: 'click',
+                eventLabel: 'Sponsors',
+                transport: 'beacon'
+            });
+        });
         $("#give").on("click", function () {
             $("#content").load("templates/thanks.html");
 
