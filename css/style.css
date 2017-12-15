@@ -373,6 +373,25 @@ div#events div.event-content{
     padding: 0 15%;
 }
 
+div#events div.event-content div.event-container {
+    overflow: auto;
+    margin-bottom: 5vw;
+}
+
+div#events div.event-container div.left {
+    float: left;
+    width: 50%;
+}
+
+div#events div.event-container div.right {
+    float: right;
+    width: 50%;
+}
+
+div#events div.event-container img{
+    width: 98%;
+}
+
 div#events div.title {
     font-family: julius;
     font-size: 2.5vw;
