@@ -153,6 +153,10 @@ div.home-text {
     width: 50%;
 }
 
+div.home-text form input {
+    width: 90%;
+}
+
 div.believe {
     font-family: great-vibes;
     font-size: 8vw;
@@ -418,11 +422,11 @@ div#card {
     padding: 0 2%;
 }
 
-div.donate {
+div.thanks div.donate {
     text-align: center;
 }
 
-form#donate input {
+div.thanks form#donate input {
     width: 20vw;
 }
 
