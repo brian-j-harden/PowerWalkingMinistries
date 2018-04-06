@@ -1,43 +1,43 @@
 @font-face {
     font-family: great-vibes;
     src: url(../font/greatvibes-regular-webfont.eot), /* IE Compat Modes */
-        url(../font/greatvibes-regular-webfont.woff), /* Modern Browsers */
-        url(../font/greatvibes-regular-webfont.ttf) /* Safari, Android, iOS */
+    url(../font/greatvibes-regular-webfont.woff), /* Modern Browsers */
+    url(../font/greatvibes-regular-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: julius;
     src: url(../font/juliussansone-regular-webfont.eot), /* IE Compat Modes */
-        url(../font/juliussansone-regular-webfont.woff), /* Modern Browsers */
-        url(../font/juliussansone-regular-webfont.ttf) /* Safari, Android, iOS */
+    url(../font/juliussansone-regular-webfont.woff), /* Modern Browsers */
+    url(../font/juliussansone-regular-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: cabin-bold;
     src: url(../font/cabinsketch-bold-webfont.eot), /* IE Compat Modes */
-        url(../font/cabinsketch-bold-webfont.woff), /* Modern Browsers */
-        url(../font/cabinsketch-bold-webfont.ttf) /* Safari, Android, iOS */
+    url(../font/cabinsketch-bold-webfont.woff), /* Modern Browsers */
+    url(../font/cabinsketch-bold-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: gruppo;
     src: url(../font/gruppo-regular-webfont.eot), /* IE Compat Modes */
-        url(../font/gruppo-regular-webfont.woff), /* Modern Browsers */
-        url(../font/gruppo-regular-webfont.ttf) /* Safari, Android, iOS */
+    url(../font/gruppo-regular-webfont.woff), /* Modern Browsers */
+    url(../font/gruppo-regular-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: tenorsans;
     src: url(../font/tenorsans-regular-webfont.eot), /* IE Compat Modes */
-        url(../font/tenorsans-regular-webfont.woff), /* Modern Browsers */
-        url(../font/tenorsans-regular-webfont.ttf) /* Safari, Android, iOS */
+    url(../font/tenorsans-regular-webfont.woff), /* Modern Browsers */
+    url(../font/tenorsans-regular-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: roboto;
     src: url(../font/roboto-medium-webfont.eot), /* IE Compat Modes */
-        url(../font/roboto-medium-webfont.woff), /* Modern Browsers */
-        url(../font/roboto-medium-webfont.ttf) /* Safari, Android, iOS */
+    url(../font/roboto-medium-webfont.woff), /* Modern Browsers */
+    url(../font/roboto-medium-webfont.ttf) /* Safari, Android, iOS */
 }
 
 @font-face {
@@ -64,7 +64,7 @@ div.header {
 
 div.header-img {
     height: 100%;
-    background: url(../img/full_header_christmas.jpg) no-repeat left bottom;
+    background: url(../img/full_header.jpg) no-repeat left bottom;
     float: right;
     position: relative;
     width: 100%;
@@ -153,10 +153,6 @@ div.home-text {
     float: right;
     padding-top: 3vh;
     width: 50%;
-}
-
-div.home-text form input {
-    width: 90%;
 }
 
 div.believe {
@@ -261,7 +257,6 @@ div.guidelines li:before {
     background-image: url(../img/bullet-shoe.png);
     background-size: 100%;
     background-repeat: no-repeat;
-
 }
 */
 div#wendy-div {
@@ -450,11 +445,11 @@ div#card {
     padding: 0 3%;
 }
 
-div.thanks div.donate {
+div.donate {
     text-align: center;
 }
 
-div.thanks form#donate input {
+form#donate input {
     width: 12vw;
 }
 
@@ -514,5 +509,4 @@ div#news div.title {
 .selected:hover {
     cursor: text;
 }
-
 
